@@ -125,7 +125,6 @@ def process_user_query(user_query: str) -> Dict[str, Any]:
     append_to_conversation_log(user_query, reply)
 
     return {
-
         "final": reply  # Final answer for user
     }
 

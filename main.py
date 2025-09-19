@@ -10,6 +10,7 @@ app = FastAPI(title="Gemini Mine Safety Bot API")
 origins = [
     "http://localhost:8080",  # React frontend
     "http://127.0.0.1:8080",
+    "https://sih-nu-liart.vercel.app",
     # Add more origins if needed
 ]
 
@@ -46,7 +47,6 @@ async def predict_video(file: UploadFile = File(...)):
             "error": f"❌ Video processing failed: {e}"
         }
     
-
 # ---- Root Endpoint ----
 @app.get("/")
 async def root():
