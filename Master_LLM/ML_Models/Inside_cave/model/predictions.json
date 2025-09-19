@@ -1,0 +1,53 @@
+{
+    "frame_0": [
+        {
+            "width": 1015.0,
+            "height": 418.0,
+            "x": 511.5,
+            "y": 509.0,
+            "confidence": 0.7497944831848145,
+            "class_id": 0,
+            "class": "landslide debris",
+            "detection_id": "021d49ec-0482-4383-b4b3-766bd3528983",
+            "parent_id": "image"
+        }
+    ],
+    "frame_3": [
+        {
+            "width": 1031.0,
+            "height": 666.0,
+            "x": 523.5,
+            "y": 387.0,
+            "confidence": 0.7345060706138611,
+            "class_id": 1,
+            "class": "landslide scar",
+            "detection_id": "1b57ed76-5c66-4eb8-8ef0-9ea282244904",
+            "parent_id": "image"
+        },
+        {
+            "width": 1250.0,
+            "height": 626.0,
+            "x": 643.0,
+            "y": 407.0,
+            "confidence": 0.5930559635162354,
+            "class_id": 0,
+            "class": "landslide debris",
+            "detection_id": "59bac814-a0d4-42d1-9ac0-519ce7235f62",
+            "parent_id": "image"
+        }
+    ],
+    "frame_2": [],
+    "frame_1": [
+        {
+            "width": 1021.0,
+            "height": 382.0,
+            "x": 512.5,
+            "y": 528.0,
+            "confidence": 0.7187861204147339,
+            "class_id": 0,
+            "class": "landslide debris",
+            "detection_id": "c4c0b584-f9db-4659-aa42-55e84fe925de",
+            "parent_id": "image"
+        }
+    ]
+}
